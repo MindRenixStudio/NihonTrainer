@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Pages\HiraganaWrite_Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Hiragana_Chart.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Hiragana_Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Kanji_Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\KatakanaWrite_Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Katakana_Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Main_Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\VocabularyGreeting_Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\VocabularyMain_Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\WriteSelect_Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\HiraganaWrite_Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Hiragana_Chart.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Hiragana_Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Kanji_Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\KatakanaWrite_Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Katakana_Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Main_Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\VocabularyGreeting_Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\VocabularyMain_Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\WriteSelect_Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
